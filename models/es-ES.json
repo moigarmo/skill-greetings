@@ -1,0 +1,35 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "saluda a alguien",
+          "intents": [
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "NameIntent",
+                  "slots": [
+                      {
+                          "name": "name",
+                          "type": "AMAZON.FirstName"
+                      }
+                  ],
+                  "samples": [
+                      "{name}",
+                      "a {name}",
+                      "esta es {name}",
+                      "este es {name}",
+                      "saluda a {name}",
+                      "di hola a {name}",
+                      "te presento a {name}"
+                  ]
+              }
+          ]
+      }
+  }
+}

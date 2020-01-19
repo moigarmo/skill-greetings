@@ -1,0 +1,32 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "greet someone",
+            "intents": [
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NameIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "{name}",
+                        "to {name}",
+                        "this is {name}",
+                        "let me introduce you to {name}",
+                        "greet {name}"
+                    ]
+                }
+            ]
+        }
+    }
+}

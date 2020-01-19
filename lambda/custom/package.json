@@ -1,0 +1,17 @@
+{
+  "name": "skill-greetings",
+  "version": "1.0.0",
+  "description": "Greetings for alexa (i18n)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moigarmo",
+  "license": "GPLv3",
+  "dependencies": {
+    "ask-sdk": "^2.6.0",
+    "ask-sdk-s3-persistence-adapter": "^2.6.0",
+    "i18next": "^10.5.0",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  }
+}
