@@ -5,7 +5,9 @@
                 "en-US": {
                     "summary": "Greets the person with a random phrase.",
                     "examplePhrases": [
-                        "Alexa greet someone"
+                        "Alexa greet someone",
+                        "This is Peter",
+                        "Let me introduce you to Peter"
                     ],
                     "name": "Greet Someone",
                     "description": "Ask Alexa to greet someone. She will ask you for a name and greet the person you choose with a random sentence."
@@ -13,7 +15,9 @@
                 "en-GB": {
                     "summary": "Greets the person with a random phrase.",
                     "examplePhrases": [
-                        "Alexa greet someone"
+                        "Alexa greet someone",
+                        "this is Peter",
+                        "Let me introduce you to Peter"
                     ],
                     "name": "Greet Someone",
                     "description": "Ask Alexa to greet someone. She will ask you for a name and greet the person you choose with a random sentence."
@@ -21,7 +25,9 @@
                 "es-ES": {
                     "summary": "Saluda a la persona con una frase aleatoria.",
                     "examplePhrases": [
-                        "Alexa saluda a alguien"
+                        "Alexa, saluda a alguien",
+                        "Este es Juan",
+                        "Te presento a Juan"
                     ],
                     "name": "Saluda a alguien",
                     "description": "Pídele a Alexa que salude a alguien. Te preguntará un nombre y saludará a quien le digas con una frase aleatoria."
@@ -29,7 +35,9 @@
                 "es-MX": {
                     "summary": "Saluda a la persona con una frase aleatoria.",
                     "examplePhrases": [
-                        "Alexa saluda a alguien"
+                        "Alexa saluda a alguien",
+                        "Este es Juan",
+                        "Te presento a Juan"
                     ],
                     "name": "Saluda a alguien",
                     "description": "Pídele a Alexa que salude a alguien. Te preguntará un nombre y saludará a quien le digas con una frase aleatoria."
@@ -37,7 +45,9 @@
                 "es-US": {
                     "summary": "Saluda a la persona con una frase aleatoria.",
                     "examplePhrases": [
-                        "Alexa saluda a alguien"
+                        "Alexa saluda a alguien",
+                        "Este es Juan",
+                        "Te presento a Juan"
                     ],
                     "name": "Saluda a alguien",
                     "description": "Pídele a Alexa que salude a alguien. Te preguntará un nombre y saludará a quien le digas con una frase aleatoria."

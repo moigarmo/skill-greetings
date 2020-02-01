@@ -16,11 +16,9 @@ const LaunchRequest = {
         const { attributesManager } = handlerInput;
         const requestAttributes = attributesManager.getRequestAttributes();
 
-        const reprompt = requestAttributes.t('LAUNCH_MESSAGE');
-
         return handlerInput.responseBuilder
-            .speak(reprompt)
-            .reprompt(reprompt)
+            .speak(requestAttributes.t('LAUNCH_MESSAGE'))
+            .reprompt(requestAttributes.t('EXIT_MESSAGE'))
             .getResponse();
     },
 };
@@ -44,11 +42,9 @@ const HelpIntent = {
         const { attributesManager } = handlerInput;
         const requestAttributes = attributesManager.getRequestAttributes();
 
-        const reprompt = requestAttributes.t('HELP_MESSAGE');
-
         return handlerInput.responseBuilder
-            .speak(reprompt)
-            .reprompt(reprompt)
+            .speak(requestAttributes.t('HELP_MESSAGE'))
+            .reprompt(requestAttributes.t('EXIT_MESSAGE'))
             .getResponse();
     },
 };

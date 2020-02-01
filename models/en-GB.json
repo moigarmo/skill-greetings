@@ -6,7 +6,12 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": []
-                },                {
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
                     "name": "AMAZON.HelpIntent",
                     "samples": []
                 },
@@ -19,7 +24,6 @@
                         }
                     ],
                     "samples": [
-                        "{name}",
                         "to {name}",
                         "this is {name}",
                         "let me introduce you to {name}",

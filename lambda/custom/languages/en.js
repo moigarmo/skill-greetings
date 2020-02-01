@@ -10,7 +10,9 @@ module.exports = {
             'I finally met %s, I wanted to meet you so badly!',
             'Hey %s, How are you?',
             'Hello %s, my name is Alexa, here I am for whatever you need',
-            'Greetings from the cloud, %s'
+            'Greetings from the cloud, %s',
+            'Hello %s, what a coincidence. I was talking to Siri just now about your incredible feats',
+            'Hello %s, its a pleasure meeting you'
         ]
     }
 }

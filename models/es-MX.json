@@ -8,6 +8,10 @@
                     "samples": []
                 },
                 {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
                     "name": "AMAZON.HelpIntent",
                     "samples": []
                 },
@@ -20,7 +24,6 @@
                         }
                     ],
                     "samples": [
-                        "{name}",
                         "a {name}",
                         "esta es {name}",
                         "este es {name}",
